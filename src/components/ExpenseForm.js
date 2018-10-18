@@ -6,7 +6,7 @@ import 'react-dates/initialize';
 
 // const date = new Date();
 const now = moment();
-console.log(now.format('MMM Do, YYYY'));
+console.log(now.format('Do, MMM YYYY'));
 
 export default class ExpenseForm extends React.Component {
 	constructor(props) {
